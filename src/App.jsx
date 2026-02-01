@@ -30,21 +30,6 @@ export default function App() {
     }
   }
 
-   // ✅ Secure loading of scripts (AdSense, Analytics, etc.)
-  {/*function loadPrivacyScripts() {
-    if (!document.getElementById("google-ads-script")) {
-      const script = document.createElement("script");
-      script.id = "google-ads-script";
-      script.async = true;
-      script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-      script.setAttribute("data-ad-client", "ca-pub-XXXXXXXXXXXXXXX"); 
-      // ⬆️ remplace par ton vrai ID AdSense
-      document.head.appendChild(script);
-    }
-
-    // You can also load Google Analytics here if you want to later.
-  }*/}
-
   return (
     <div className="min-h-screen bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-300 transition-colors duration-500">
       
