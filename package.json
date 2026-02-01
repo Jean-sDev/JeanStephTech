@@ -1,0 +1,26 @@
+{
+  "name": "lord-obito-dev-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port $PORT --host"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.14.1",
+    "@vitejs/plugin-react": "latest",
+    "scrollreveal": "latest",
+     "firebase": "latest",
+    "react-icons": "latest",
+    "date-fns": "latest"
+  },
+  "devDependencies": {
+    "vite": "5.1.0",
+    "tailwindcss": "3.4.7",
+    "postcss": "8.4.24",
+    "autoprefixer": "10.4.14"
+  }
+}
