@@ -30,8 +30,8 @@ export default function App() {
     }
   }
 
-  // ✅ Secure loading of scripts (AdSense, Analytics, etc.)
-  /*function loadPrivacyScripts() {
+   // ✅ Secure loading of scripts (AdSense, Analytics, etc.)
+  {/*function loadPrivacyScripts() {
     if (!document.getElementById("google-ads-script")) {
       const script = document.createElement("script");
       script.id = "google-ads-script";
@@ -43,7 +43,7 @@ export default function App() {
     }
 
     // You can also load Google Analytics here if you want to later.
-  }*/
+  }*/}
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-300 transition-colors duration-500">
