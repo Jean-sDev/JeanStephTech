@@ -22,7 +22,7 @@ export default function Projects({ projects, author }) {
                  bg-white text-slate-800 dark:bg-slate-900 dark:text-slate-100"
     >
       <h2 className="text-3xl font-semibold mb-8 text-center">
-        Mes Projets
+        Our Projects
       </h2>
 
       <div className="grid md:grid-cols-2 gap-6">
