@@ -14,7 +14,7 @@ export default function Footer() {
         
         {/* Social networks */}
         <div>
-          <h3 className="font-semibold text-lg text-slate-800 dark:text-slate-100 mb-3">Retrouvez-moi sur</h3>
+          <h3 className="font-semibold text-lg text-slate-800 dark:text-slate-100 mb-3">Find us on</h3>
           <div className="flex justify-center flex-wrap gap-5">
             {socials.map((s) => (
               <a
