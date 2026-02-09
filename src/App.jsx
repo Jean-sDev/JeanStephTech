@@ -11,11 +11,11 @@ import Terms from "./pages/legal/Terms";
 import Legal from "./pages/legal/Legal";
 import ContactPage from "./pages/legal/Contact";
 
-import CookieBanner, { readConsent } from "./components/CookieBanner";
+/*import CookieBanner, { readConsent } from "./components/CookieBanner";*/
 
 export default function App() {
 
-  // ✅ On loading: if the user has already accepted, the scripts are reloaded.
+  // ✅ On loading: if the user has already /*accepted, the scripts are reloaded.
   useEffect(() => {
     const consent = readConsent();
     if (consent && consent.accepted) {
@@ -28,7 +28,7 @@ export default function App() {
     if (payload.accepted) {
       loadPrivacyScripts();
     }
-  }
+  }*/
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-300 transition-colors duration-500">
@@ -47,8 +47,8 @@ export default function App() {
       {/* ✅ Global footer on all pages */}
       
 
-      {/* ✅ Cookie banner for 3 weeks */}
+      {/* ✅ Cookie banner for 3 weeks 
       <CookieBanner onAccept={onCookieAccept} />
-    </div>
+    </div>*/}
   );
         }
