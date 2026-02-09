@@ -48,7 +48,7 @@ export default function App() {
       
 
       {/* ✅ Cookie banner for 3 weeks 
-      <CookieBanner onAccept={onCookieAccept} />
-    </div>*/}
+      <CookieBanner onAccept={onCookieAccept} />*/}
+    </div>
   );
         }
