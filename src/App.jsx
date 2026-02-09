@@ -15,8 +15,8 @@ import ContactPage from "./pages/legal/Contact";
 
 export default function App() {
 
-  // ✅ On loading: if the user has already /*accepted, the scripts are reloaded.
-  useEffect(() => {
+  // ✅ On loading: if the user has already accepted, the scripts are reloaded.
+ /* useEffect(() => {
     const consent = readConsent();
     if (consent && consent.accepted) {
       loadPrivacyScripts();
