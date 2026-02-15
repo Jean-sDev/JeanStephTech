@@ -10,7 +10,7 @@ export default function Home() {
   const author = {
     name: "JEAN - STEPHANE DEV",
     email: "support@lordobitotech.xyz",
-    phone: "+2250712668494",
+    phone: "+2250596259021",
   };
 
   const projects = [
@@ -18,7 +18,8 @@ export default function Home() {
       id: 1,
       title: "BLOG JEAN - STEPH TECH",
       desc: "Blog of my project and personal business JEAN - STEPH TECH",
-      link: "https://lordobitotech.xyz/blog",
+      github: "https://github.com/orgs/JeanStephTech/JeanStephTech/pages/Blog.jsx",
+      link: "https://www.lordobitotech.xyz/blog",
       tags: ["React", "Vite", "Tailwind"],
     },
     {
@@ -26,7 +27,7 @@ export default function Home() {
       title: "FREE - PANELS",
       desc: "A project that offers you the opportunity to have free pterodactyl servers, available as open source on GitHub.",
       link: "https://freepanels.lordobitotech.xyz",
-      github: "https://github.com/Jean-sDev/FreePanel-Host",
+      github: "https://github.com/orgs/JeanStephTech/FreePanel-Host",
       tags: ["React", "Vite", "TypeScript"],
     },
     {
@@ -34,7 +35,7 @@ export default function Home() {
       title: "JEAN - STEPH TECH",
       desc: "The company website built in React will give you access to all our creations.\nIt is also available as open source where you could use it for your personal use.",
       link: "https://lordobitotech.xyz",
-      github: "https://github.com/Jean-sDev/JeanStephTech",
+      github: "https://github.com/orgs/JeanStephTech/JeanStephTech",
       tags: ["React", "Tailwind", "Vite"],
     },
     {
