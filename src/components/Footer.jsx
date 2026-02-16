@@ -3,6 +3,8 @@ import React from "react";
 export default function Footer() {
   const socials = [
     { name: "GitHub", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg", url: "https://github.com/orgs/JeanStephTech" },
+    { name: "LinkedIn", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg", url: "https://linkedin.com/in/JeanStephTech" }, // N'oublie pas de personnaliser ce lien
+    { name: "X", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg", url: "https://x.com/JeanStephTech" },
     { name: "YouTube", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg", url: "https://youtube.com/@JeanStephDev" },
     { name: "Telegram", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg", url: "https://t.me/JeanStephTech" },
     { name: "WhatsApp", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg", url: "https://whatsapp.com/channel/0029Vb65HSyHwXbEQbQjQV26" },
@@ -14,7 +16,7 @@ export default function Footer() {
         
         {/* Social networks */}
         <div>
-          <h3 className="font-semibold text-lg text-slate-800 dark:text-slate-100 mb-3">Find us on</h3>
+          <h3 className="font-semibold text-lg text-slate-800 dark:text-slate-100 mb-3">Retrouvez-moi sur</h3>
           <div className="flex justify-center flex-wrap gap-5">
             {socials.map((s) => (
               <a
@@ -24,7 +26,7 @@ export default function Footer() {
                 rel="noreferrer"
                 className="flex items-center gap-2 text-slate-600 dark:text-slate-300 hover:text-blue-600 transition"
               >
-                <img src={s.icon} alt={s.name} className="w-5 h-5" />
+                <img src={s.icon} alt={s.name} className="w-5 h-5 dark:invert-[0.1]" />
                 {s.name}
               </a>
             ))}
@@ -44,5 +46,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-   }
-            
+}
