@@ -5,6 +5,8 @@ export default function Footer2() {
     { name: "GitHub", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg", url: "https://github.com/orgs/JeanStephTech" },
     { name: "LinkedIn", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg", url: "https://linkedin.com/in/JeanStephTech" },
     { name: "X", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg", url: "https://x.com/JeanStephTech" },
+    { name: "Facebook", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg", url: "https://facebook.com/JeanStephTech" },
+    { name: "Instagram", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg", url: "https://instagram.com/JeanStephTech" },
     { name: "YouTube", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg", url: "https://youtube.com/@JeanStephDev" },
     { name: "Telegram", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg", url: "https://t.me/JeanStephTech" },
     { name: "WhatsApp", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg", url: "https://whatsapp.com/channel/0029Vb65HSyHwXbEQbQjQV26" },
@@ -13,7 +15,7 @@ export default function Footer2() {
   return (
     <footer className="bg-white dark:bg-slate-900 border-t mt-16 py-10 text-center text-slate-700 dark:text-slate-300">
       <div className="max-w-6xl mx-auto flex flex-col gap-8"> 
-        
+
         {/* Social networks */}
         <div>
           <h3 className="font-semibold text-lg text-slate-800 dark:text-slate-100 mb-4">Find us on</h3>
@@ -41,7 +43,7 @@ export default function Footer2() {
         <div className="border-t pt-6 text-sm text-slate-500 dark:text-slate-400">
           © {new Date().getFullYear()} <strong>JEAN - STEPH TECH</strong>
         </div>
-        
+
         <div className="flex flex-wrap justify-center gap-6 text-sm mt-2">
             <a href="/privacy-policy" className="hover:text-blue-600">Privacy Policy</a>
             <a href="/terms" className="hover:text-blue-600">Terms of Use</a>
