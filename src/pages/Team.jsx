@@ -44,7 +44,7 @@ export default function Team() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((m, i) => (
             <div key={i} className="flex flex-col items-center p-8 bg-white dark:bg-slate-800 rounded-3xl shadow-xl dark:shadow-none border border-slate-200 dark:border-slate-700">
-              
+
               {/* Avatar Slot */}
               <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-blue-500 p-1">
                 {m.avatar ? (
@@ -58,7 +58,7 @@ export default function Team() {
 
               <h2 className="text-xl font-bold mb-1">{m.name}</h2>
               <p className="text-blue-600 dark:text-blue-400 font-semibold text-sm uppercase mb-3">{m.role}</p>
-              
+
               <p className="text-slate-600 dark:text-slate-400 text-sm text-center mb-6">
                 {m.description}
               </p>
