@@ -23,7 +23,7 @@ export default function Hero() {
        {/* <div className="space-y-6 reveal">
           <div className="inline-block bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 px-4 py-1.5 rounded-full font-semibold text-sm shadow-sm">
             🚀 Digital Solutions • Automation • Innovation
-          </div>/*}
+          </div>*/}
 
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
             Welcome to{" "}
