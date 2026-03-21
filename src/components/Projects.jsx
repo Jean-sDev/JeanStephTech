@@ -93,7 +93,7 @@ export default function Projects({ projects, author }) {
                 )}`}
                 className="text-sm px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700 transition"
               >
-                Contact me
+                Contact us
               </a>
             </div>
           </article>
