@@ -20,8 +20,8 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         
         {/* Main text */}
-       {/* <div className="space-y-6 reveal">
-          <div className="inline-block bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 px-4 py-1.5 rounded-full font-semibold text-sm shadow-sm">
+        <div className="space-y-6 reveal">
+       {/*   <div className="inline-block bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 px-4 py-1.5 rounded-full font-semibold text-sm shadow-sm">
             🚀 Digital Solutions • Automation • Innovation
           </div>*/}
 
