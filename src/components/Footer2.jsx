@@ -5,7 +5,7 @@ export default function Footer2() {
     { name: "GitHub", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg", url: "https://github.com/orgs/JeanStephTech" },
     { name: "LinkedIn", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg", url: "https://linkedin.com/in/JeanStephTech" },
     { name: "X", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg", url: "https://x.com/JeanStephTech" },
-    { name: "Facebook", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg", url: "https://facebook.com/JeanStephTech" },
+    { name: "Facebook", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg", url: "https://www.facebook.com/share/18LdKKrncj" },
     { name: "Instagram", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg", url: "https://instagram.com/JeanStephTech" },
     { name: "YouTube", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg", url: "https://youtube.com/@JeanStephDev" },
     { name: "Telegram", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg", url: "https://t.me/JeanStephTech" },
