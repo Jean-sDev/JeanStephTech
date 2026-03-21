@@ -59,7 +59,7 @@ export default function Navbar() {
             to="/contact"
             className="px-4 py-2 bg-blue-600 text-white rounded-md font-medium hover:bg-blue-700 transition"
           >
-            Contact me
+            Contact us
           </Link>
         </nav>
 
@@ -98,7 +98,7 @@ export default function Navbar() {
             onClick={() => setOpen(false)}
             className="px-4 py-2 bg-blue-600 text-white rounded-md font-medium text-center"
           >
-            Contact me
+            Contact us
           </Link>
         </div>
       </div>
