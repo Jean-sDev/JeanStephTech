@@ -48,8 +48,7 @@ export default function Home() {
 {
       id: 5,
       title: "FREE PANELS BOT (TG)",
-      desc: "100% Free Pterodactyl Hosting Bot! 🎁
-Deploy and manage your free Pterodactyl servers directly from Telegram 🌍.",
+      desc: "100% Free Pterodactyl Hosting Bot! Deploy and manage your free Pterodactyl servers directly from Telegram.",
       link: "https://t.me/FreePterodactylPanels_Bot",
       tags: ["TypeScript", "Telegram Bot"],
     },
