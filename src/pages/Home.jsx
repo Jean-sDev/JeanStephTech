@@ -45,6 +45,21 @@ export default function Home() {
       link: "https://free-bots.lordobitotech.xyz",
       tags: ["HTML", "CSS", "Node.js"],
     },
+{
+      id: 5,
+      title: "FREE PANELS BOT (TG)",
+      desc: "100% Free Pterodactyl Hosting Bot! 🎁
+Deploy and manage your free Pterodactyl servers directly from Telegram 🌍.",
+      link: "https://t.me/FreePterodactylPanels_Bot",
+      tags: ["TypeScript", "Telegram Bot"],
+    },
+{
+      id: 5,
+      title: "BLACK HAT VPS",
+      desc: "Deploy your projects on ultra-fast Cloud VPS servers with BlachatVPS. AMD EPYC™ processors, 100% NVMe storage, generous bandwidth, and built-in DDoS protection. Instant deployment.",
+      link: "https://www.blackhatvps.store",
+      tags: ["TypeScript", "Vite", "React"],
+    },
   ];
 
   useEffect(() => {
