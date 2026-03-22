@@ -14,10 +14,10 @@ const articlesData = [
     excerpt: "Apprends à créer un bot WhatsApp automatisé. Ce tuto couvre l'installation, les fichiers sources et le déploiement étape par étape.",
     content: (
       <div className="space-y-4">
-        <p>L'automatisation est un levier de productivité incroyable. Ce bot utilise la bibliothèque Baileys pour une connexion stable via QR Code.</p>
+        <p>Automation is an incredible productivity driver. This bot uses the Baileys library for a stable connection via QR code.</p>
         <p className="bg-blue-50 dark:bg-slate-800 p-3 rounded-lg border-l-4 border-blue-600">
-          📹 Tuto complet 👉 <a href="https://youtu.be/-24iwWriOCc" className="text-blue-600 font-bold underline" target="_blank" rel="noopener noreferrer">YouTube</a><br/>
-          📦 Fichiers ➡️ <a href="https://t.me/Lord_obito_tech_official/37" className="text-blue-600 font-bold underline" target="_blank" rel="noopener noreferrer">Télécharger</a>
+          📹 Complete tutorial 👉 <a href="https://youtu.be/-24iwWriOCc" className="text-blue-600 font-bold underline" target="_blank" rel="noopener noreferrer">YouTube</a><br/>
+          📦 Files ➡️ <a href="https://t.me/Lord_obito_tech_official/37" className="text-blue-600 font-bold underline" target="_blank" rel="noopener noreferrer">Download</a>
         </p>
       </div>
     ),
@@ -26,24 +26,24 @@ const articlesData = [
     id: 2,
     date: new Date("2025-11-11"),
     category: "Bots",
-    title: "Comment automatiser WhatsApp pour booster ta productivité",
+    title: "How to automate WhatsApp to boost your productivity",
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800",
-    excerpt: "Découvre comment configurer les commandes automatiques et gérer tes contacts efficacement sans perdre de temps.",
-    content: <p>Un bot bien configuré peut filtrer les messages, envoyer des catalogues et même prendre des rendez-vous via calendrier. C'est un assistant 24h/24.</p>,
+    excerpt: "Discover how to set up automatic commands and manage your contacts efficiently without wasting time.",
+    content: <p>A well-configured bot can filter messages, send catalogues and even schedule appointments via calendar. It's a 24/7 assistant.</p>,
   },
   {
     id: 3,
     date: new Date("2025-11-13"),
     category: "Bots",
-    title: "Top 5 des projets pour débuter avec un bot",
+    title: "Top 5 projects to start with a bot",
     image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=800",
-    excerpt: "Tu veux te lancer mais tu manques d'idées ? Voici les projets les plus utiles pour s'entraîner.",
+    excerpt: "Want to get started but lacking ideas? Here are the most useful projects to practice on.",
     content: (
       <ul className="list-disc ml-6 space-y-2">
-        <li><strong>Bot de notifications :</strong> Alertes météo ou news.</li>
-        <li><strong>Bot de téléchargement :</strong> Récupère des vidéos YouTube/TikTok via un lien.</li>
-        <li><strong>Bot Quiz :</strong> Anime tes groupes WhatsApp de façon interactive.</li>
-        <li><strong>Bot Reminder :</strong> Pour ne plus jamais oublier une tâche importante.</li>
+        <li><strong>Notification bot :</strong> Weather alerts or news.</li>
+        <li><strong>Download bot :</strong> Retrieves YouTube/TikTok videos via a link.</li>
+        <li><strong>Quiz Bot :</strong> Make your WhatsApp groups more interactive.</li>
+        <li><strong>Bot Reminder :</strong> So that you never forget an important task again.</li>
       </ul>
     ),
   },
@@ -51,28 +51,28 @@ const articlesData = [
     id: 4,
     date: new Date("2025-11-15"),
     category: "Sites",
-    title: "Maîtriser HTML5 & CSS3 : Les Bases du Web",
+    title: "Mastering HTML5 & CSS3: The Basics of the Web",
     image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=800",
-    excerpt: "Comprendre la structure d'un site est essentiel. Apprends les balises sémantiques pour un meilleur SEO.",
-    content: <p>Le HTML structure, le CSS embellit. Pour AdSense, un code propre avec des balises comme &lt;article&gt; est un gros avantage.</p>,
+    excerpt: "Understanding a site's structure is essential. Learn semantic tags for better SEO."",
+    content: <p>HTML provides structure, CSS enhances it. For AdSense, clean code with tags like <article> is a big advantage.</p>,
   },
   {
     id: 5,
     date: new Date("2025-11-17"),
     category: "Sites",
-    title: "Optimiser les performances React pour le SEO",
+    title: "Optimizing React performance for SEO",
     image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=800",
-    excerpt: "Un site lent fait fuir les visiteurs. Apprends à optimiser ton blog pour Google.",
-    content: <p>Utilise le Lazy Loading, compresse tes images en WebP et privilégie Next.js pour le rendu côté serveur (SSR).</p>,
+    excerpt: "A slow website drives visitors away. Learn how to optimize your blog for Google.",
+    content: <p>Use Lazy Loading, compress your images in WebP and favor Next.js for server-side rendering (SSR).</p>,
   },
   {
     id: 6,
     date: new Date("2025-11-20"),
     category: "IA",
-    title: "L'Intelligence Artificielle au service du Code",
+    title: "Artificial Intelligence at the Service of Code",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800",
-    excerpt: "Comment ChatGPT et Copilot révolutionnent la façon dont nous développons aujourd'hui.",
-    content: <p>L'IA aide à structurer le code, mais l'expertise humaine reste vitale pour la sécurité et la personnalisation réelle des projets.</p>,
+    excerpt: "How ChatGPT and Copilot are revolutionizing the way we develop today.",
+    content: <p>AI helps to structure the code, but human expertise remains vital for security and true project customization.</p>,
   },
   {
     id: 7,
