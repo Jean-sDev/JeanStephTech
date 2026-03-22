@@ -30,11 +30,11 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <h2 className="text-xl font-bold text-slate-900 dark:text-white">JEAN - STEPH TECH</h2>
             <p className="text-sm leading-relaxed max-w-xs">
-              Innover pour demain. Votre partenaire technologique pour des solutions numériques performantes.
+              Innovating for tomorrow. Your technology partner for high-performance digital solutions.
             </p>
           </div>
 
-          {/* Colonne 2: Liens rapides (Alignés à la verticale) */}
+          {/* Colonne 2: Liens rapides (Aligned vertically) */}
           <div className="flex flex-col gap-4">
             <h3 className="font-semibold text-slate-800 dark:text-slate-100 uppercase text-xs tracking-wider">Navigation</h3>
             <nav className="flex flex-col gap-2">
