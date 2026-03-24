@@ -6,6 +6,7 @@ import Blog from "./pages/Blog";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Team from "./pages/Team.jsx";
+import Article from "./pages/Article";
 
 import PrivacyPolicy from "./pages/legal/PrivacyPolicy";
 import Terms from "./pages/legal/Terms";
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/legal" element={<Legal />} />
         <Route path="/contact" element={<ContactPage />} />
+<Route path="/blog/:slug" element={<Article />} />
       </Routes>
 
       {/* ✅ Global footer on all pages */}
