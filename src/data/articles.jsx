@@ -80,7 +80,179 @@ export const articles = [
     content: <p>AI helps to structure the code, but human expertise remains vital for security and true project customization.</p>,
   },
 
-  // ⚠️ IMPORTANT :
-  // Je t’ai corrigé les 6 premiers pour éviter de faire un message trop long.
-  // Si tu veux, je te donne LES 16 RESTANTS immédiatement.
+  {
+    id: 7,
+    slug: "responsive-design-guide",
+    date: new Date("2025-11-22"),
+    category: "Websites",
+    title: "Responsive Design Guide: Mobile-First",
+    image: "https://images.unsplash.com/photo-1526498460520-4c246339dccb?q=80&w=800",
+    excerpt: "Over 60% of traffic is mobile. Your site must be perfect on smartphones.",
+    content: <p>Use CSS Flexbox and Grid. Tailwind makes responsive design easy with classes like md:flex and lg:grid.</p>,
+  },
+
+  {
+    id: 8,
+    slug: "web-security-basics",
+    date: new Date("2025-11-25"),
+    category: "Security",
+    title: "Securing Your Web App: The Basics",
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800",
+    excerpt: "Protecting user data is a priority.",
+    content: <p>Always validate user inputs and enforce HTTPS across your entire site.</p>,
+  },
+
+  {
+    id: 9,
+    slug: "deploy-bot-vps",
+    date: new Date("2025-11-28"),
+    category: "Bots",
+    title: "Deploying Your Bot on a VPS (24/7)",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800",
+    excerpt: "Run your bot 24/7 without keeping your PC on.",
+    content: <p>Use a VPS with PM2 to keep your Node.js bot always running and auto-restarting.</p>,
+  },
+
+  {
+    id: 10,
+    slug: "adsense-blog-preparation",
+    date: new Date("2025-12-01"),
+    category: "Monetization",
+    title: "Preparing Your Blog for Google AdSense",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800",
+    excerpt: "All the tips to get approved by Google AdSense.",
+    content: <p>Focus on unique content, clean navigation, and legal pages like Privacy Policy.</p>,
+  },
+
+  {
+    id: 11,
+    slug: "openai-react-integration",
+    date: new Date("2025-12-05"),
+    category: "AI",
+    title: "Integrating OpenAI API into React",
+    image: "https://images.unsplash.com/photo-1676299081847-824916de030a?q=80&w=800",
+    excerpt: "Add AI features to your website.",
+    content: <p>Never expose your API key in frontend. Always use a backend proxy.</p>,
+  },
+
+  {
+    id: 12,
+    slug: "python-vs-node-bots",
+    date: new Date("2025-12-10"),
+    category: "Bots",
+    title: "Python vs Node.js for Bots",
+    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=800",
+    excerpt: "Which language should you choose?",
+    content: <p>Node.js is better for real-time bots like WhatsApp, Python excels in data processing.</p>,
+  },
+
+  {
+    id: 13,
+    slug: "group-management-bot",
+    date: new Date("2025-12-15"),
+    category: "Bots",
+    title: "Group Management Bot: Auto-kick & Welcome",
+    image: "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=800",
+    excerpt: "Moderate your WhatsApp group automatically.",
+    content: <p>Auto-welcome users and remove spam links automatically.</p>,
+  },
+
+  {
+    id: 14,
+    slug: "protect-whatsapp-bot",
+    date: new Date("2025-12-18"),
+    category: "Bots",
+    title: "Protecting Your WhatsApp Bot from Bans",
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=800",
+    excerpt: "Avoid getting banned by WhatsApp.",
+    content: <p>Don’t spam messages and simulate human-like delays between actions.</p>,
+  },
+
+  {
+    id: 15,
+    slug: "portfolio-that-converts",
+    date: new Date("2025-12-22"),
+    category: "Websites",
+    title: "Creating a Portfolio That Attracts Clients",
+    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=800",
+    excerpt: "Land freelance jobs with a strong portfolio.",
+    content: <p>Showcase 3 strong projects instead of many average ones.</p>,
+  },
+
+  {
+    id: 16,
+    slug: "typescript-intro",
+    date: new Date("2025-12-25"),
+    category: "Websites",
+    title: "Introduction to TypeScript for JS Devs",
+    image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=800",
+    excerpt: "Avoid bugs with static typing.",
+    content: <p>TypeScript helps catch errors before running your code.</p>,
+  },
+
+  {
+    id: 17,
+    slug: "tailwind-css-guide",
+    date: new Date("2025-12-28"),
+    category: "Websites",
+    title: "Tailwind CSS: Ultra-fast Pro Designs",
+    image: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=800",
+    excerpt: "Design faster with Tailwind.",
+    content: <p>Use utility classes instead of writing long CSS files.</p>,
+  },
+
+  {
+    id: 18,
+    slug: "web3-future",
+    date: new Date("2026-01-02"),
+    category: "Websites",
+    title: "The Future of the Web: Web3 and Decentralization",
+    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=800",
+    excerpt: "Understand blockchain and Web3.",
+    content: <p>Web3 focuses on decentralization and user data ownership.</p>,
+  },
+
+  {
+    id: 19,
+    slug: "vscode-extensions-2026",
+    date: new Date("2026-01-05"),
+    category: "Websites",
+    title: "Top 10 VS Code Extensions in 2026",
+    image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=800",
+    excerpt: "Boost your productivity.",
+    content: <p>Extensions like Prettier and GitLens are essential.</p>,
+  },
+
+  {
+    id: 20,
+    slug: "discord-bot-nodejs",
+    date: new Date("2026-01-08"),
+    category: "Bots",
+    title: "Creating a Discord Bot with Node.js",
+    image: "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=800",
+    excerpt: "Build a Discord bot.",
+    content: <p>Use Discord.js to create powerful bots.</p>,
+  },
+
+  {
+    id: 21,
+    slug: "css-dark-mode",
+    date: new Date("2026-01-12"),
+    category: "Websites",
+    title: "The CSS Dark Mode Guide",
+    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800",
+    excerpt: "Add dark mode to your site.",
+    content: <p>Use prefers-color-scheme for automatic dark mode.</p>,
+  },
+
+  {
+    id: 22,
+    slug: "learn-sql-basics",
+    date: new Date("2026-01-15"),
+    category: "Websites",
+    title: "Learning SQL to Manage Your Data",
+    image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=800",
+    excerpt: "Master databases with SQL.",
+    content: <p>Learn SELECT, JOIN and indexing for performance.</p>,
+  },
 ];
