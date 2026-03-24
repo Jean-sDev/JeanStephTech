@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer2() {
   const socials = [
-    { name: "GitHub", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg", url: "https://github.com/orgs/JeanStephTech" },
+    { name: "GitHub", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg", url: "https://github.com/JeanStephTech" },
     { name: "LinkedIn", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg", url: "https://linkedin.com/in/JeanStephTech" },
     { name: "X", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg", url: "https://x.com/JeanStephTech" },
     { name: "Facebook", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg", url: "https://www.facebook.com/share/18LdKKrncj" },
