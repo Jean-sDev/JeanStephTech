@@ -104,7 +104,7 @@ export default function Article() {
         {/* COPY MESSAGE */}
         {copied && (
           <p className="text-green-500 font-semibold">
-            ✅ Lien copié !
+             Lien copié !
           </p>
         )}
 
@@ -116,7 +116,7 @@ export default function Article() {
       </div>
 
       {/* FOOTER */}
-      <Footer2 />
+      {/* <Footer2 />*/}
     </div>
   );
 }
