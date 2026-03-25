@@ -367,11 +367,11 @@ node bot.js
 
 {
     id: 23,
-    slug: "create-whatsapp-bot-2026",
+    slug: "create-whatsapp-bot-2026-EN",
     date: new Date("2026-03-25"),
     category: "Bots",
     title: "Create Your WhatsApp Bot – 2026 Method",
-    image: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?q=80&w=800",
+    image: "https://files.catbox.moe/spydhh.png",
     excerpt: "Learn the 2026 method to create a WhatsApp bot using Baileys with dynamic commands and pairing code.",
     content: (
       <div className="space-y-6">
@@ -511,11 +511,11 @@ export const AutoRead = false;`}
 
   {
     id: 24,
-    slug: "creer-bot-whatsapp-2026",
+    slug: "creer-bot-whatsapp-2026-FR",
     date: new Date("2026-03-25"),
     category: "Bots",
     title: "Créer votre bot WhatsApp – Méthode 2026",
-    image: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?q=80&w=800",
+    image: "https://files.catbox.moe/spydhh.png",
     excerpt: "Apprenez la méthode 2026 pour créer un bot WhatsApp avec Baileys, commandes dynamiques et pairing code.",
     content: (
       <div className="space-y-6">
