@@ -501,7 +501,7 @@ export const AutoRead = false;`}
         {/* CTA */}
         <div className="bg-green-50 dark:bg-green-900 p-4 rounded-lg border-l-4 border-green-600 space-y-2">
           <p className="font-bold">📦 Download Full Project</p>
-          <a href="https://your-download-link.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold underline">
+          <a href="https://www.mediafire.com/file/sr9vdjhr3qouxyc/FREE-BASE-BOT-2026-EN.zip/file" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold underline">
             Download WhatsApp Bot 2026
           </a>
         </div>
@@ -609,7 +609,7 @@ startBot();`}
         {/* CTA */}
         <div className="bg-green-50 dark:bg-green-900 p-4 rounded-lg border-l-4 border-green-600 space-y-2">
           <p className="font-bold">📦 Télécharger le projet complet</p>
-          <a href="https://your-download-link.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold underline">
+          <a href="https://www.mediafire.com/file/z8j218casbemoht/FREE-BASE-BOT-2026-FR.zip/file" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold underline">
             Télécharger le Bot WhatsApp 2026
           </a>
         </div>
