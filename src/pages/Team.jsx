@@ -12,7 +12,7 @@ const teamMembers = [
     role: "FOUNDER & CEO",
     avatar: "https://files.catbox.moe/j1vipa.jpg",
     description: "Passionate about technological innovation and the development of digital ecosystems.",
-   links:{ site: "https://lordobitotech.xyz",
+   links:{ site: "https://www.jeansteph-dev.lordobitotech.xyz",
     whatsapp: "https://whatsapp.com/channel/0029Vb65HSyHwXbEQbQjQV26",
     youtube: "https://youtube.com/@JeanStephDev",
     github: "https://github.com/Jean-sDev"}
@@ -25,11 +25,14 @@ const teamMembers = [
     links: { whatsapp: "#" }
   },
   {
-    name: "IBRAHIMA BARRY",
-    role: "CMO & COO",
-    avatar: "https://i.pravatar.cc/150?u=ibrahima",
-    description: "Responsable de la stratégie de marque et des opérations.",
-    links: { github: "#", youtube: "#" }
+    name: "IBRAHIMA-BARRY",
+    role: "CO-FOUNDER & CMO & COO",
+    avatar: "https://files.catbox.moe/l0krjn.jpg",
+    description: "Passionate about technological innovation and the development of digital ecosystems.",
+   links:{ site: "https://www.barry-dev.lordobitotech.xyz",
+    whatsapp: "https://whatsapp.com/channel/0029Vargs9aGOj9teLmc6r0w",
+    youtube: "https://youtube.com/@IbrahimBarry-bg7sj",
+    github: "https://github.con/ib960965-cloud"}
   }
 ];
 
