@@ -7,15 +7,124 @@ export const articles = [
     title: "Create Your Own WhatsApp Bot – Complete 2025 Guide",
     image: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?q=80&w=800",
     excerpt: "Learn how to create an automated WhatsApp bot. This tutorial covers installation, source files, and step-by-step deployment.",
-    content: (
-      <div className="space-y-4">
-        <p>Automation is an incredible productivity driver. This bot uses the Baileys library for a stable connection via QR code.</p>
-        <p className="bg-blue-50 dark:bg-slate-800 p-3 rounded-lg border-l-4 border-blue-600">
-          📹 Complete tutorial 👉 <a href="https://youtu.be/-24iwWriOCc" className="text-blue-600 font-bold underline" target="_blank" rel="noopener noreferrer">YouTube</a><br/>
-          📦 Files ➡️ <a href="https://t.me/Lord_obito_tech_official/37" className="text-blue-600 font-bold underline" target="_blank" rel="noopener noreferrer">Download</a>
-        </p>
-      </div>
-    ),
+    content: content: (
+  <div className="space-y-6">
+
+    {/* INTRO */}
+    <p>
+      Dans ce guide, nous allons créer un bot WhatsApp complet étape par étape.
+      Ce bot utilise la librairie Baileys pour fonctionner avec un QR code.
+    </p>
+
+    {/* EXPPLICATION */}
+    <p>
+      Avant de commencer, assure-toi d’avoir installé Node.js sur ton système.
+      Ensuite, initialise un projet Node avec npm.
+    </p>
+
+    {/* FICHIER 1 */}
+    <div className="bg-blue-50 dark:bg-slate-800 p-4 rounded-lg border-l-4 border-blue-600 space-y-2">
+
+      <p className="font-bold">📁 Fichier principal : bot.js</p>
+
+      <p>Crée un fichier <code>bot.js</code> et colle ce code :</p>
+
+      {/* CODE BLOCK */}
+      <pre className="bg-black text-green-400 p-4 rounded-lg overflow-x-auto">
+{`const { default: makeWASocket } = require("@whiskeysockets/baileys");
+
+async function startBot() {
+  const sock = makeWASocket();
+  console.log("Bot démarré !");
+}
+
+startBot();`}
+      </pre>
+
+      {/* COPY BUTTON (simple exemple) */}
+      <button
+        onClick={() => navigator.clipboard.writeText(`const { default: makeWASocket } = require("@whiskeysockets/baileys");`)}
+        className="bg-blue-600 text-white px-3 py-1 rounded"
+      >
+        Copier le code
+      </button>
+
+    </div>
+
+    {/* EXPPLICATION */}
+    <p>
+      Ce code initialise une connexion WhatsApp. Lors de la première exécution,
+      un QR code sera généré.
+    </p>
+
+    {/* FICHIER 2 */}
+    <div className="bg-blue-50 dark:bg-slate-800 p-4 rounded-lg border-l-4 border-blue-600 space-y-2">
+
+      <p className="font-bold">📁 Fichier : package.json</p>
+
+      <p>Ajoute les dépendances suivantes :</p>
+
+      <pre className="bg-black text-green-400 p-4 rounded-lg overflow-x-auto">
+{`{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.0.0"
+  }
+}`}
+      </pre>
+
+    </div>
+
+    {/* FICHIER 3 */}
+    <div className="bg-blue-50 dark:bg-slate-800 p-4 rounded-lg border-l-4 border-blue-600 space-y-2">
+
+      <p className="font-bold">📁 Fichier : config.js</p>
+
+      <p>Ajoute ta configuration :</p>
+
+      <pre className="bg-black text-green-400 p-4 rounded-lg overflow-x-auto">
+{`module.exports = {
+  prefix: "!",
+  owner: "TonNom"
+};`}
+      </pre>
+
+    </div>
+
+    {/* EXPLICATION FINALE */}
+    <p>
+      Une fois tous les fichiers configurés, lance le bot avec la commande :
+    </p>
+
+    <pre className="bg-black text-green-400 p-4 rounded-lg">
+node bot.js
+    </pre>
+
+    {/* CTA DOWNLOAD */}
+    <div className="bg-green-50 dark:bg-green-900 p-4 rounded-lg border-l-4 border-green-600 space-y-2">
+
+      <p className="font-bold">
+        📦 Télécharger le projet complet
+      </p>
+
+      <p>
+        Clique sur le lien ci-dessous pour télécharger tous les fichiers prêts à l’emploi :
+      </p>
+
+      <a
+        href="https://ton-lien-de-download.com"
+        className="text-blue-600 font-bold underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Télécharger le projet complet
+      </a>
+
+    </div>
+
+  </div>
+)
   },
 
   {
