@@ -24,7 +24,7 @@ export default function Blog() {
       <div className="max-w-5xl mx-auto p-6 space-y-10">
 
         <h1 className="text-6xl font-black text-center bg-gradient-to-r from-blue-600 to-indigo-500 bg-clip-text text-transparent">
-          Tech Blog
+          TECH BLOGS
         </h1>
 
         <div className="grid gap-6">
@@ -46,7 +46,7 @@ export default function Blog() {
 
       </div>
 
-      <Footer2 /> {/* 🔥 REMIS */}
+      <Footer2 />
     </div>
   );
 }
