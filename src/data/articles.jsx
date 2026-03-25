@@ -7,7 +7,7 @@ export const articles = [
     title: "Create Your Own WhatsApp Bot – Complete 2025 Guide",
     image: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?q=80&w=800",
     excerpt: "Learn how to create an automated WhatsApp bot. This tutorial covers installation, source files, and step-by-step deployment.",
-    content: content: (
+    content: (
   <div className="space-y-6">
 
     {/* INTRO */}
