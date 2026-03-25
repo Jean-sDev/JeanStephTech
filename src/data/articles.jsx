@@ -511,7 +511,7 @@ export const AutoRead = false;`}
 
   {
     id: 24,
-    slug: "creer-bot-whatsapp-2026-FR",
+    slug: "create-whatsapp-bot-2026-FR",
     date: new Date("2026-03-25"),
     category: "Bots",
     title: "Créer votre bot WhatsApp – Méthode 2026",
