@@ -8,7 +8,7 @@ const GitHubIcon = () => <svg viewBox="0 0 24 24" className="w-5 h-5 fill-curren
 
 const teamMembers = [
   {
-    name: "JEAN - STÉPHANE",
+    name: "JEAN - STEPHANE",
     role: "FOUNDER & CEO",
     avatar: "https://files.catbox.moe/j1vipa.jpg",
     description: "Passionate about technological innovation and the development of digital ecosystems.",
