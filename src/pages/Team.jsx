@@ -37,7 +37,7 @@ const teamMembers = [
   },
 {
     name: "Dev-Messy",
-    role: "CMO",
+    role: "CLBR, BCK & CMO",
     avatar: "https://files.catbox.moe/kqxatx.jpg",
     description: "Développer Backend & Frontent.",
    links:{ site: "https://www.dev-messy-portfolio.syntaxe.site",
