@@ -4,7 +4,7 @@ import Footer2 from "../../components/Footer2";
 export default function Legal() {
   return (
     <div className="max-w-5xl mx-auto px-6 py-16 leading-relaxed">
-      <h1 className="text-3xl font-bold mb-8">Mentions Légales</h1>
+      <h1 className="text-3xl font-bold mb-8">Legal Notices</h1>
 
       <ul className="space-y-4">
         <li>
@@ -14,17 +14,17 @@ export default function Legal() {
         <li>
           <strong>URL :</strong>{" "}
           <a
-            href="https://lordobitotech.xyz"
+            href="https://www.lordobitotech.xyz"
             target="_blank"
             rel="noreferrer"
             className="text-blue-600 hover:underline"
           >
-            https://lordobitotech.xyz
+            https://www.lordobitotech.xyz
           </a>
         </li>
 
         <li>
-          <strong>Responsible :</strong> JEAN - STÉPHANE DEV 
+          <strong>Responsible :</strong> JEAN - STEPHANE
         </li>
 
         <li>
@@ -44,12 +44,12 @@ export default function Legal() {
         <li>
           <strong>Host :</strong>{" "}
           <a
-            href="https://vercel.com"
+            href="https://Blackhatvps.store"
             target="_blank"
             rel="noreferrer"
             className="text-blue-600 hover:underline"
           >
-            Vercel
+          BLACK HAT VPS
           </a>
         </li>
 
