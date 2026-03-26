@@ -128,33 +128,119 @@ node bot.js
   },
 
   {
-    id: 2,
-    slug: "automate-whatsapp-productivity",
-    date: new Date("2025-11-11"),
-    category: "Bots",
-    title: "How to automate WhatsApp to boost your productivity",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800",
-    excerpt: "Discover how to set up automatic commands and manage your contacts efficiently without wasting time.",
-    content: <p>A well-configured bot can filter messages, send catalogues and even schedule appointments via calendar. It's a 24/7 assistant.</p>,
-  },
+  id: 2,
+  slug: "automate-whatsapp-productivity",
+  date: new Date("2025-11-11"),
+  category: "Bots",
+  title: "How to automate WhatsApp to boost your productivity",
+  image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800",
+  excerpt: "Discover how to automate WhatsApp messages, commands and workflows to save hours every day.",
+  content: (
+    <div className="space-y-6">
+
+      <p>
+        Automation is one of the most powerful tools for developers and entrepreneurs.
+        With a WhatsApp bot, you can reply instantly, manage groups, and execute commands 24/7.
+      </p>
+
+      <h2 className="font-bold text-xl">⚡ Why automate WhatsApp?</h2>
+      <ul className="list-disc ml-6">
+        <li>Reply instantly to messages</li>
+        <li>Manage groups automatically</li>
+        <li>Save time on repetitive tasks</li>
+        <li>Create a 24/7 assistant</li>
+      </ul>
+
+      <h2 className="font-bold text-xl">📁 Example: Auto-reply command</h2>
+
+      <div className="bg-blue-50 dark:bg-slate-800 p-4 rounded-lg border-l-4 border-blue-600">
+        <pre className="bg-black text-green-400 p-4 rounded-lg overflow-x-auto">
+{`if (text === ".hello") {
+  await obito.sendMessage(message.key.remoteJid, {
+    text: "👋 Hello! I am your automated bot."
+  });
+}`}
+        </pre>
+      </div>
+
+      <p>
+        This simple command automatically replies when a user sends ".hello".
+      </p>
+
+      <h2 className="font-bold text-xl">🤖 Advanced automation ideas</h2>
+
+      <ul className="list-disc ml-6">
+        <li>Auto welcome new members</li>
+        <li>Auto-delete spam links</li>
+        <li>Schedule messages</li>
+        <li>Send daily reports</li>
+      </ul>
+
+      <h2 className="font-bold text-xl">⏰ Example: Scheduled message</h2>
+
+      <div className="bg-blue-50 dark:bg-slate-800 p-4 rounded-lg border-l-4 border-blue-600">
+        <pre className="bg-black text-green-400 p-4 rounded-lg overflow-x-auto">
+{`setInterval(() => {
+  obito.sendMessage("225xxxx@s.whatsapp.net", {
+    text: "⏰ Daily reminder!"
+  });
+}, 86400000);`}
+        </pre>
+      </div>
+
+      <p>
+        With automation, your WhatsApp becomes a powerful productivity machine.
+      </p>
+
+    </div>
+  ),
+},
 
   {
-    id: 3,
-    slug: "top-5-bot-projects",
-    date: new Date("2025-11-13"),
-    category: "Bots",
-    title: "Top 5 projects to start with a bot",
-    image: "https://files.catbox.moe/fvljdj.jpg",
-    excerpt: "Want to get started but lacking ideas? Here are the most useful projects to practice on.",
-    content: (
-      <ul className="list-disc ml-6 space-y-2">
-        <li><strong>Notification bot:</strong> Weather alerts or news.</li>
-        <li><strong>Download bot:</strong> Retrieves YouTube/TikTok videos via a link.</li>
-        <li><strong>Quiz Bot:</strong> Make your WhatsApp groups more interactive.</li>
-        <li><strong>Reminder Bot:</strong> So that you never forget an important task again.</li>
-      </ul>
-    ),
-  },
+  id: 3,
+  slug: "top-5-bot-projects",
+  date: new Date("2025-11-13"),
+  category: "Bots",
+  title: "Top 5 projects to start with a bot",
+  image: "https://files.catbox.moe/fvljdj.jpg",
+  excerpt: "Discover the best beginner-friendly bot projects to improve your coding skills.",
+  content: (
+    <div className="space-y-6">
+
+      <p>
+        If you are starting with bots, choosing the right project is crucial.
+        Here are 5 powerful ideas you can build today.
+      </p>
+
+      <h2 className="font-bold text-xl">1️⃣ Notification Bot</h2>
+      <p>Sends alerts like weather, news or crypto prices.</p>
+
+      <pre className="bg-black text-green-400 p-4 rounded-lg">
+{`fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd")
+  .then(res => res.json())
+  .then(data => console.log(data));`}
+      </pre>
+
+      <h2 className="font-bold text-xl">2️⃣ Download Bot</h2>
+      <p>Download videos from TikTok or YouTube.</p>
+
+      <h2 className="font-bold text-xl">3️⃣ Quiz Bot</h2>
+      <p>Create interactive quizzes for groups.</p>
+
+      <h2 className="font-bold text-xl">4️⃣ Reminder Bot</h2>
+      <p>Set reminders for tasks.</p>
+
+      <h2 className="font-bold text-xl">5️⃣ Moderation Bot</h2>
+      <p>Auto-delete links and manage groups.</p>
+
+      <div className="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
+        <p className="font-bold">🔥 Pro tip:</p>
+        <p>Start small, then combine all these features into one powerful bot.</p>
+      </div>
+
+    </div>
+  ),
+},
 
   {
     id: 4,
