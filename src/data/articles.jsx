@@ -243,37 +243,135 @@ node bot.js
 },
 
   {
-    id: 4,
-    slug: "html-css-basics",
-    date: new Date("2025-11-15"),
-    category: "Websites",
-    title: "Mastering HTML5 & CSS3: The Basics of the Web",
-    image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=800",
-    excerpt: "Understanding a site's structure is essential. Learn semantic tags for better SEO.",
-    content: <p>HTML provides structure, CSS enhances it. For AdSense, clean code with tags like &lt;article&gt; is a big advantage.</p>,
-  },
+  id: 4,
+  slug: "html-css-basics",
+  date: new Date("2025-11-15"),
+  category: "Websites",
+  title: "Mastering HTML5 & CSS3: The Basics of the Web",
+  image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=800",
+  excerpt: "Learn HTML structure and CSS styling to build modern websites.",
+  content: (
+    <div className="space-y-6">
+
+      <p>
+        HTML provides structure, while CSS adds design.
+        Together, they form the foundation of every website.
+      </p>
+
+      <h2 className="font-bold text-xl">📄 Basic HTML structure</h2>
+
+      <pre className="bg-black text-green-400 p-4 rounded-lg">
+{`<!DOCTYPE html>
+<html>
+<head>
+  <title>My Site</title>
+</head>
+<body>
+  <h1>Hello World</h1>
+</body>
+</html>`}
+      </pre>
+
+      <h2 className="font-bold text-xl">🎨 CSS example</h2>
+
+      <pre className="bg-black text-green-400 p-4 rounded-lg">
+{`body {
+  background: black;
+  color: white;
+}`}
+      </pre>
+
+      <h2 className="font-bold text-xl">🚀 SEO Tips</h2>
+
+      <ul className="list-disc ml-6">
+        <li>Use semantic tags (&lt;article&gt;, &lt;section&gt;)</li>
+        <li>Optimize images</li>
+        <li>Use proper headings</li>
+      </ul>
+
+    </div>
+  ),
+},
 
   {
-    id: 5,
-    slug: "react-seo-optimization",
-    date: new Date("2025-11-17"),
-    category: "Websites",
-    title: "Optimizing React performance for SEO",
-    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=800",
-    excerpt: "A slow website drives visitors away. Learn how to optimize your blog for Google.",
-    content: <p>Use Lazy Loading, compress your images in WebP and favor Next.js for server-side rendering (SSR).</p>,
-  },
+  id: 5,
+  slug: "react-seo-optimization",
+  date: new Date("2025-11-17"),
+  category: "Websites",
+  title: "Optimizing React performance for SEO",
+  image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=800",
+  excerpt: "Improve your React app speed and SEO ranking.",
+  content: (
+    <div className="space-y-6">
+
+      <p>
+        React apps are fast, but SEO can be tricky if not optimized properly.
+      </p>
+
+      <h2 className="font-bold text-xl">⚡ Performance tips</h2>
+
+      <ul className="list-disc ml-6">
+        <li>Lazy loading components</li>
+        <li>Compress images</li>
+        <li>Use CDN</li>
+      </ul>
+
+      <h2 className="font-bold text-xl">📦 Lazy loading example</h2>
+
+      <pre className="bg-black text-green-400 p-4 rounded-lg">
+{`const Blog = React.lazy(() => import("./Blog"));`}
+      </pre>
+
+      <h2 className="font-bold text-xl">🚀 Best solution</h2>
+
+      <p>
+        Use Next.js for SSR (Server Side Rendering).
+      </p>
+
+    </div>
+  ),
+},
 
   {
-    id: 6,
-    slug: "ai-for-coding",
-    date: new Date("2025-11-20"),
-    category: "AI",
-    title: "Artificial Intelligence at the Service of Code",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800",
-    excerpt: "How ChatGPT and Copilot are revolutionizing the way we develop today.",
-    content: <p>AI helps to structure the code, but human expertise remains vital for security and true project customization.</p>,
-  },
+  id: 6,
+  slug: "ai-for-coding",
+  date: new Date("2025-11-20"),
+  category: "AI",
+  title: "Artificial Intelligence at the Service of Code",
+  image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800",
+  excerpt: "Discover how AI tools improve coding speed and quality.",
+  content: (
+    <div className="space-y-6">
+
+      <p>
+        AI is transforming development. Tools like ChatGPT and Copilot help developers code faster.
+      </p>
+
+      <h2 className="font-bold text-xl">🤖 What AI can do</h2>
+
+      <ul className="list-disc ml-6">
+        <li>Generate code</li>
+        <li>Fix bugs</li>
+        <li>Explain errors</li>
+      </ul>
+
+      <h2 className="font-bold text-xl">💡 Example: Generate function</h2>
+
+      <pre className="bg-black text-green-400 p-4 rounded-lg">
+{`function sum(a, b) {
+  return a + b;
+}`}
+      </pre>
+
+      <h2 className="font-bold text-xl">⚠️ Important</h2>
+
+      <p>
+        AI is powerful, but always review your code for security.
+      </p>
+
+    </div>
+  ),
+},
 
   {
     id: 7,
