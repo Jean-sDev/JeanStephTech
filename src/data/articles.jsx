@@ -113,7 +113,7 @@ node bot.js
       </p>
 
       <a
-        href="https://ton-lien-de-download.com"
+        href="https://www.mediafire.com/file/sr9vdjhr3qouxyc/FREE-BASE-BOT-2026-EN.zip/file"
         className="text-blue-600 font-bold underline"
         target="_blank"
         rel="noopener noreferrer"
@@ -144,7 +144,7 @@ node bot.js
     date: new Date("2025-11-13"),
     category: "Bots",
     title: "Top 5 projects to start with a bot",
-    image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=800",
+    image: "https://files.catbox.moe/fvljdj.jpg",
     excerpt: "Want to get started but lacking ideas? Here are the most useful projects to practice on.",
     content: (
       <ul className="list-disc ml-6 space-y-2">
@@ -466,8 +466,8 @@ startBot();`}
 {`export const BotName = "Bot Base for My followers";
 export const BotVersion = "0.0.1";
 export const OwnerName = "JEAN STEPH DEV";
-export const OwnerNumber = "2250712668494";
-export const CreatorNumber = "2250712668494";
+export const OwnerNumber = "2250712XXXX";
+export const CreatorNumber = "2250712XXXX";
 export const Prefix = ".";
 export const Mode = "public"; // public / private
 export const AutoReact = true;
