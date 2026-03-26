@@ -7,14 +7,9 @@ import { FaWhatsapp, FaTelegram, FaFacebook, FaLink } from "react-icons/fa";
 export default function Article() {
   const { slug } = useParams();
   const [copied, setCopied] = useState(false);
-  const [article, setArticle] = useState(null);
 
-  useEffect(() => {
-    if (!slug) return;
-
-    const found = articles.find(a => a.slug === slug);
-    setArticle(found || null);
-  }, [slug]);
+  // ✅ FIX BUG : plus de useEffect
+  const article = articles.find(a => a.slug === slug);
 
   if (!article) {
     return (
@@ -42,22 +37,19 @@ export default function Article() {
   return (
     <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
 
-      {/* META SEO (utile pour navigation interne, PAS pour bots) */}
+      {/* META SEO */}
       <Helmet>
         <title>{article.title}</title>
-
         <meta name="description" content={article.excerpt} />
-
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.excerpt} />
         <meta property="og:image" content={article.image} />
-        <meta
-          property="og:url"
-          content={`https://www.lordobitotech.xyz/blog/${article.slug}`}
-        />
-
+        <meta property="og:url" content={`https://www.lordobitotech.xyz/blog/${article.slug}`} />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
+
+      {/* 🔥 STICKY VIDEO AD */}
+      <StickyVideoAd />
 
       <div className="max-w-4xl mx-auto p-6 space-y-6">
 
@@ -117,19 +109,74 @@ export default function Article() {
 
         </div>
 
-        {/* COPY MESSAGE */}
         {copied && (
           <p className="text-green-500 font-semibold">
             Lien copié !
           </p>
         )}
 
-        {/* CONTENT */}
-        <div className="prose dark:prose-invert max-w-none pt-4">
+        {/* 🔥 CONTENT + ADS */}
+        <div className="prose dark:prose-invert max-w-none pt-4 space-y-6">
+
+          {/* CONTENU */}
           {article.content}
+
+          {/* 🎥 PUB VIDEO MILIEU */}
+          <VideoAd />
+
+          {/* 🎥 PUB VIDEO FIN */}
+          <VideoAd />
+
         </div>
 
       </div>
     </div>
   );
+}
+
+//////////////////////////////////////////////////////////////////
+// 🎥 VIDEO AD COMPONENT
+//////////////////////////////////////////////////////////////////
+
+function VideoAd() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://tuckerclassesjackal.com/4d/9f/04/4d9f040ce9ab42f6085e21e45a76532f.js";
+    script.async = true;
+
+    const container = document.getElementById("adsterra-video");
+    if (container && !container.hasChildNodes()) {
+      container.appendChild(script);
+    }
+
+    return () => {
+      script.remove();
+    };
+  }, []);
+
+  return (
+    <div className="my-10 flex justify-center">
+      <div id="adsterra-video"></div>
+    </div>
+  );
+}
+
+//////////////////////////////////////////////////////////////////
+// 🎯 STICKY VIDEO (ULTRA RENTABLE)
+//////////////////////////////////////////////////////////////////
+
+function StickyVideoAd() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://tuckerclassesjackal.com/4d/9f/04/4d9f040ce9ab42f6085e21e45a76532f.js";
+    script.async = true;
+
+    document.body.appendChild(script);
+
+    return () => {
+      script.remove();
+    };
+  }, []);
+
+  return null;
 }
