@@ -27,13 +27,23 @@ const teamMembers = [
   },
   {
     name: "IBRAHIMA-BARRY",
-    role: "CO-FOUNDER & CMO & COO",
+    role: "CO-FOUNDER & COO",
     avatar: "https://files.catbox.moe/l0krjn.jpg",
     description: "Passionate about technological innovation and the development of digital ecosystems.",
    links:{ site: "https://www.barry-dev.lordobitotech.xyz",
     whatsapp: "https://whatsapp.com/channel/0029Vargs9aGOj9teLmc6r0w",
     youtube: "https://youtube.com/@IbrahimBarry-bg7sj",
     github: "https://github.con/ib960965-cloud"}
+  },
+{
+    name: "Dev-Messy",
+    role: "CMO",
+    avatar: "https://files.catbox.moe/kqxatx.jpg",
+    description: "Développer Backend & Frontent.",
+   links:{ site: "https://www.dev-messy-portfolio.syntaxe.site",
+    whatsapp: "https://whatsapp.com/channel/0029VbCFNSS0LKZFXzWMZS1w",
+    youtube: "https://youtube.com/@syntaxe_corps",
+    github: "https://github.com/Dev-Messy0"}
   },
 {
     name: "ROAN LAUDAVE",
