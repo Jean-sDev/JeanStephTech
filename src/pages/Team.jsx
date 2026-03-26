@@ -34,6 +34,16 @@ const teamMembers = [
     whatsapp: "https://whatsapp.com/channel/0029Vargs9aGOj9teLmc6r0w",
     youtube: "https://youtube.com/@IbrahimBarry-bg7sj",
     github: "https://github.con/ib960965-cloud"}
+  },
+{
+    name: "ROAN LAUDAVE",
+    role: "DEV",
+    avatar: "https://files.catbox.moe/ijq6uh.jpg",
+    description: "Passionate about technologie and ethical hacking",
+   links:{ site: "https://roan-cyber-hack.vercel.app",
+    whatsapp: "https://whatsapp.com/channel/0029VbB8P8WLCoWwr0nDDc0n",
+    youtube: "https://youtube.com/@RoanCyberHack",
+    github: "https://github.com/dev-mrroan"}
   }
 ];
 
