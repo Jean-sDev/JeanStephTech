@@ -10,7 +10,7 @@ const teamMembers = [
   {
     name: "JEAN - STEPHANE",
     role: "FOUNDER & CEO",
-    avatar: "https://files.catbox.moe/j1vipa.jpg",
+    avatar: "https://files.catbox.moe/879fdq.jpg",
     description: "Passionate about technological innovation and the development of digital ecosystems.",
    links:{ site: "https://www.jeansteph-dev.lordobitotech.xyz",
     whatsapp: "https://whatsapp.com/channel/0029Vb65HSyHwXbEQbQjQV26",
@@ -18,11 +18,12 @@ const teamMembers = [
     github: "https://github.com/Jean-sDev"}
   },
   {
-    name: "STYVEN - EMMANUEL",
+    name: "STYVEN-EMMANUEL",
     role: "CO-FOUNDER & CTO",
-    avatar: "", 
-    description: "Spécialiste en architecture système et innovation logicielle.",
-    links: { whatsapp: "#" }
+    avatar: "https://files.catbox.moe/9cawl9.jpg",
+    description: "Passionate about technological innovation and the development of digital ecosystems.",
+   links:{ site: "https://www.styven-dev.lordobitotech.xyz",
+    whatsapp: "https://whatsapp.com/channel/0029VbAj0uCLikg6Pfjs4i2u"}
   },
   {
     name: "IBRAHIMA-BARRY",
