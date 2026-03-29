@@ -46,6 +46,16 @@ const teamMembers = [
     github: "https://github.com/Dev-Messy0"}
   },
 {
+    name: "KERM",
+    role: "DEV",
+    avatar: "https://files.catbox.moe/9ko2un.jpeg",
+    description: "A passionate developer with extensive knowledge of all computer tools, a dedicated programmer, and a pro mentor.",
+   links:{ site: "https://kermhosting.site",
+    whatsapp: "https://whatsapp.com/channel/0029Vb7SZlxGZNCvMMMiJj09",
+    youtube: "https://youtube.com/@kermhacktools-s9s",
+    github: "https://github.com/hostt11"}
+  },
+{
     name: "ROAN LAUDAVE",
     role: "DEV",
     avatar: "https://files.catbox.moe/ijq6uh.jpg",
