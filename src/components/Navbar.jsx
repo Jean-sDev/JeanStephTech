@@ -7,6 +7,7 @@ export default function Navbar() {
   // Configuration des liens de navigation
   const links = [
     { path: "/", label: "Home" },
+    { path: "/projects", label: "Projects" },
     { path: "/team", label: "Team" },
     { path: "/blog", label: "Blog" },
   ];
@@ -58,10 +59,6 @@ export default function Navbar() {
             </NavLink>
           ))}
 
-          <a href="#projects" className="hover:text-blue-500 text-slate-700 dark:text-slate-200 transition">
-            Projects
-          </a>
-
           <Link
             to="/contact"
             className="px-4 py-2 bg-blue-600 text-white rounded-md font-medium hover:bg-blue-700 transition"
@@ -105,10 +102,6 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          
-          <a href="#projects" onClick={() => setOpen(false)} className="text-slate-700 dark:text-slate-200 hover:text-blue-500">
-            Projects
-          </a>
 
           <Link
             to="/contact"
