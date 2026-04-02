@@ -39,7 +39,6 @@ export default function Home() {
       <Parcours />
       <Skills />
 
-      {/* MODIFICATION ICI : slice(0, 3) et showAllLink={true} */}
       <Projects 
         projects={projects.slice(0, 3)} 
         author={author} 
