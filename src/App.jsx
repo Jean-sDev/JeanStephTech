@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Team from "./pages/Team.jsx";
 import Article from "./pages/Article";
+import ProjectsPage from "./pages/ProjectsPage";
 
 import PrivacyPolicy from "./pages/legal/PrivacyPolicy";
 import Terms from "./pages/legal/Terms";
@@ -25,6 +26,7 @@ export default function App() {
        
        <Route path="/blog" element={<Blog />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/legal" element={<Legal />} />
