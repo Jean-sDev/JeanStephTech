@@ -24,10 +24,9 @@ export default function Home() {
     },
     {
       id: 3,
-      title: "FREE - PANELS",
+      title: "FREE - PANELS (Website)",
       desc: "A project that offers you the opportunity to have free pterodactyl servers, available as open source on GitHub.",
-      link: "https://freepanels.lordobitotech.xyz",
-      github: "https://github.com/orgs/JeanStephTech/FreePanel-Host",
+      link: "https://fps-web.lordobitotech.xyz",
       tags: ["React", "Vite", "TypeScript"],
     },
     {
