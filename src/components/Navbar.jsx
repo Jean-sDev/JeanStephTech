@@ -4,7 +4,6 @@ import { Link, NavLink } from "react-router-dom";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
-  // Configuration des liens de navigation
   const links = [
     { path: "/", label: "Home" },
     { path: "/projects", label: "Projects" },
@@ -12,7 +11,6 @@ export default function Navbar() {
     { path: "/blog", label: "Blog" },
   ];
 
-  // Détecte uniquement le thème du système ou localStorage au chargement
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
