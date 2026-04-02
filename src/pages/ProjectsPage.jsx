@@ -20,10 +20,9 @@ name: "JEAN - STEPHANE TECH",
     },
     {
       id: 3,
-      title: "FREE - PANELS",
+      title: "FREE - PANELS (Website)",
       desc: "A project that offers you the opportunity to have free pterodactyl servers, available as open source on GitHub.",
-      link: "https://freepanels.lordobitotech.xyz",
-      github: "https://github.com/orgs/JeanStephTech/FreePanel-Host",
+      link: "https://fps-web.lordobitotech.xyz",
       tags: ["React", "Vite", "TypeScript"],
     },
     {
@@ -59,7 +58,6 @@ name: "JEAN - STEPHANE TECH",
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-900">
-      {/* On affiche TOUS les projets et on ne met PAS 'showAllLink' */}
       <Projects projects={allProjects} author={author} />
       <Footer />
     </div>
