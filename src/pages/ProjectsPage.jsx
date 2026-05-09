@@ -54,6 +54,20 @@ name: "JEAN - STEPHANE TECH",
       link: "https://www.blackhatvps.store",
       tags: ["TypeScript", "Vite", "React"],
     },
+{
+      id: 7,
+      title: "JEAN STEPH MD - X BOT",
+      desc: "Baileys-based intelligent bot. A bot that allows you to manage your various communities, your messages, and above all, to facilitate certain tasks for you as a developer. Available as Open Source",
+      link: "https://files.lordobitotech.xyz/files/mdx-v1-0-1",
+      tags: ["JavaScript", "Node.js", "Baileys"],
+    },
+{
+      id: 8,
+      title: "FILES BY JEAN STEPH TECH",
+      desc: "This project allows you to host media, use an API allowing you to host remotely (via a script), you can also use this API in your own site. It also allows us (JEAN STEPH TECH) to host certain Open Source files within the framework of guaranteeing availability and fast download of some of our project files.",
+      link: "https://files.lordobitotech.xyz",
+      tags: ["TypeScript", "Vite", "React", "Media URL", "Files Hosting"],
+    },
  ];
 
   return (
